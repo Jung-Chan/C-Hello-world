@@ -1,0 +1,16 @@
+class Hello
+{
+    static void Main()
+    {
+       System.Console.WriteLine("Hello, World");
+    }
+}
+
+//이후에 cmd 명령 프롬프트 창을 킨다. (해당 hello 폴더는 바탕화면 CS 폴더에 존재하게 한다. 
+//코드작성
+//cd C:\Users\컴퓨터이름\OneDrive\Desktop or 바탕 화면\CS    //여기서 cd는 검색을 하거나 바깥으로 빠르게 빠져나오게 해주는 역할? 을 해줌.
+//C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe hello.cs
+//hello
+
+//Hello,world
+//로 출력이 된다.
