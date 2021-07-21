@@ -14,3 +14,22 @@ class Hello
 
 //Hello,world
 //로 출력이 된다.
+
+
+//C#은 class가 프로그램의 기본 단위, 그렇기에 필드(변수)나 메소드(함수)등 프로그램의 구성 요소들은 반드시 class 안에 존재해야 한다.
+//메인 함수가 존재한다. C나 C++과 달리 대문자 Main() 으로 반드시 있어야한다. 이곳이 프로그램의 시작점.
+//WriteLine()은 화면에 문자열을 출력하는 함수이다. 이 함수는 Console 클래스에 속하고, System 이라는 네임스페이스에 속한다.
+//네임스페이스는 using 키워드를 써서 프로그램 앞부분에 써줄 수 있다. 그럴경우 아래와 같이 적는다.
+
+
+using System;
+
+class Hello
+{
+    static void Main()
+    {
+       Console.WriteLine("Hello, World");
+    }
+}
+
+//using 문으로 System 네임스페이스를 포함시킨다.
